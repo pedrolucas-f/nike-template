@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.cdnfonts.com/css/helvetica-neue-55"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="stylesheet" href="./styles/index.css" />
+    <link rel="icon" type="image/x-icon" href="./assets/favicon.ico" />
+
+    <title>
+      Nike - Produtos e Colecões Exclusivas - Just Do It - Nike.com.br
+    </title>
+  </head>
+
+  <body>
+    <header>
+      <div class="header_topsection">
+        <div class="header_topsection_container">
+          <div class="header_topsection_assets">
+            <div>
+              <img src="./assets/svgs/jordan.svg" alt="jordanLogo" />
+            </div>
+            <div>
+              <img src="./assets/svgs/snkrs.svg" alt="snkrsLogo" />
+            </div>
+          </div>
+          <ul>
+            <li>Ajuda</li>
+            <div class="vl"></div>
+            <li>Junte-se a nós</li>
+            <div class="vl"></div>
+            <li>Entrar</li>
+          </ul>
+        </div>
+      </div>
+      <div class="header_mainsection">
+        <div class="header_mainsection_container">
+          <div>
+            <img
+              alt="NikeLogo"
+              class="header_logo"
+              src="./assets/svgs/logo.svg"
+            />
+          </div>
+          <ul>
+            <li>Presentes Nike</li>
+            <li>Lançamentos</li>
+            <li>Masculino</li>
+            <li>Feminino</li>
+            <li>Infantil</li>
+            <li>Ofertas</li>
+            <li>SNKRS</li>
+          </ul>
+          <div class="header_interactions">
+            <div class="header_searchBar">
+              <label for="search">
+                <input id="search" type="text" placeholder="Buscar" />
+              </label>
+            </div>
+            <div class="like_icon">
+              <svg
+                data-testid="favorite-button"
+                role="img"
+                version="1.1"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                fill="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M20.2541 4.73606C19.6833 4.17102 19.004 3.72618 18.2567 3.42812C17.5094 3.13006 16.7093 2.98488 15.9044 3.00124C14.4399 3.00958 13.0349 3.57912 11.9815 4.5915C10.8513 3.54671 9.35834 2.97813 7.81591 3.00509C6.27347 3.03204 4.80149 3.65244 3.70888 4.73606C1.16626 7.15758 1.48409 11.332 4.50799 14.4583L10.7193 20.4488C11.0509 20.7905 11.5043 20.9885 11.9815 21C12.4434 21.0007 12.8883 20.8262 13.2256 20.5121L13.4072 20.3404L13.9611 19.8254C14.5059 19.3104 15.2506 18.5875 16.2222 17.6478L18.4379 15.4883L19.4277 14.5215C22.497 11.3139 22.8784 7.20276 20.2541 4.73606ZM18.1201 13.2295L17.8931 13.4463L17.1666 14.1601L14.9509 16.3196C14.0428 17.2232 13.28 17.937 12.7352 18.452L11.9815 19.1929L5.7793 13.1572C3.45462 10.7537 3.1822 7.73586 4.98019 6.00104C5.36146 5.62075 5.81438 5.31903 6.31301 5.11317C6.81165 4.9073 7.3462 4.80134 7.88605 4.80134C8.4259 4.80134 8.96045 4.9073 9.45908 5.11317C9.95771 5.31903 10.4106 5.62075 10.7919 6.00104L10.8736 6.07332C10.9796 6.15344 11.077 6.24428 11.1642 6.34439L11.9815 7.19373L12.7988 6.34439L13.053 6.10043L13.1529 6.01911C13.5347 5.63473 13.9893 5.32956 14.4904 5.12128C14.9916 4.91301 15.5293 4.80576 16.0724 4.80576C16.6155 4.80576 17.1532 4.91301 17.6543 5.12128C18.1555 5.32956 18.6101 5.63473 18.9919 6.01911C20.7808 7.73586 20.5083 10.7628 18.1201 13.2295Z"
+                />
+                <title>Ir para favoritos</title>
+              </svg>
+            </div>
+
+            <div class="shop_icon">
+              <svg
+                data-testid="BagIcon"
+                role="img"
+                version="1.1"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                fill="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M7 6V4C7 3.46957 7.21071 2.96086 7.58579 2.58579C7.96086 2.21071 8.46957 2 9 2H15C15.5304 2 16.0391 2.21071 16.4142 2.58579C16.7893 2.96086 17 3.46957 17 4V6H19C20.1046 6 21 6.89543 21 8V19C21 20.6569 19.6569 22 18 22H6C4.34315 22 3 20.6569 3 19V8C3 6.89543 3.89543 6 5 6H7ZM5 8V19C5 19.5523 5.44772 20 6 20H18C18.5523 20 19 19.5523 19 19V8H5ZM9 6H15V4H9V6Z"
+                />
+                <title>Sacola vazia</title>
+              </svg>
+            </div>
+
+            <div class="menu_icon">
+              <svg
+                data-testid="MenuHamburguerIcon"
+                aria-hidden="true"
+                version="1.1"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                fill="currentColor"
+                viewBox="0 0 24 24"
+                class="SvgIcon__Icon-sc-9dg20d-0 SvgIcon-sc-9dg20d-1 cxStEi gjIExv"
+              >
+                <path
+                  d="M21 13H3C2.4 13 2 12.6 2 12C2 11.4 2.4 11 3 11H21C21.6 11 22 11.4 22 12C22 12.6 21.6 13 21 13ZM21 5H3C2.4 5 2 4.6 2 4C2 3.4 2.4 3 3 3H21C21.6 3 22 3.4 22 4C22 4.6 21.6 5 21 5ZM21 21H3C2.4 21 2 20.6 2 20C2 19.4 2.4 19 3 19H21C21.6 19 22 19.4 22 20C22 20.6 21.6 21 21 21Z"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="main_carrousel">
+        <div class="main_carrousel_container">
+          <div class="arrowLeft"></div>
+          <p>
+            PRESENTES NIKE
+            <span>Confira nossas indicações <a href="">aqui.</a></span>
+          </p>
+          <div class="arrowRight"></div>
+        </div>
+      </div>
+
+      <section class="sectionContainer">
+        <div class="sectionImage">
+          <img src="./assets/section1.png" alt="section1Image" />
+        </div>
+
+        <div class="buttonsDiv">
+          <button>Ver Presentes</button>
+        </div>
+      </section>
+
+      <section class="sectionContainer">
+        <h2 class="section_title">Corrida</h2>
+
+        <div class="sectionImage">
+          <img src="./assets/section2.png" alt="section2Image" />
+        </div>
+
+        <div class="buttonsDiv">
+          <button>Ver Invincible 3</button>
+
+          <button>Ver InfinityRN 4</button>
+
+          <button>Ver Pegasus 40</button>
+        </div>
+      </section>
+
+      <section class="sectionContainer">
+        <h2 class="section_title">Chuteiras</h2>
+
+        <div class="sectionImage">
+          <img src="./assets/section3.png" alt="section3Image" />
+        </div>
+
+        <div class="buttonsDiv">
+          <button>Ver Chuteira</button>
+        </div>
+      </section>
+
+      <section class="sectionContainer">
+        <h2 class="section_title">Tops Nike</h2>
+
+        <video autoplay muted preload="auto" loop poster="video-poster.jpg">
+          <source src="./assets/section4.mp4" type="video/mp4" />
+          Seu navegador não suporta videos.
+        </video>
+
+        <div class="buttonsDiv">
+          <button>Ver Tops</button>
+          <button>Ver Guia de Tops</button>
+        </div>
+      </section>
+
+      <section class="sectionContainer">
+        <h2 class="section_title">Futebol</h2>
+
+        <div class="sectionImage">
+          <img src="./assets/section5.png" alt="section5Image" />
+        </div>
+
+        <div class="buttonsDiv">
+          <button>Saiba Mais</button>
+        </div>
+      </section>
+
+      <section class="sectionContainer">
+        <h2 class="section_title">Lançamento</h2>
+
+        <div class="sectionImage">
+          <img src="./assets/section6.png" alt="section6Image" />
+        </div>
+
+        <div class="buttonsDiv">
+          <button>Ver Coleção</button>
+        </div>
+      </section>
+
+      <section class="sectionContainer">
+        <h2 class="section_title">Novidades</h2>
+
+        <div class="sectionImage">
+          <img src="./assets/section7.png" alt="section7Image" />
+        </div>
+      </section>
+
+      <section class="sectionContainer">
+        <h2 class="section_title">Nike Membership</h2>
+
+        <div class="sectionImage">
+          <img src="./assets/section8.png" alt="section8Image" />
+        </div>
+
+        <div class="buttonsDiv">
+          <button>Junte-se a Nós</button>
+        </div>
+      </section>
+
+      <section class="sectionContainer">
+        <h2 class="section_title">Conheça Também</h2>
+
+        <div class="sectionImage">
+          <img src="./assets/section9.png" alt="section9Image" />
+        </div>
+      </section>
+
+      <section class="sectionContainer">
+        <div class="sectionCategories">
+          <ul>
+            <li>Destaques</li>
+            <li>Manto do Corinthians</li>
+            <li>Nike Pegasus 40</li>
+            <li>Tênis Masculino em Promoção</li>
+            <li>Tênis Feminino em Promoção</li>
+            <li>Roupas infantis em Promoção</li>
+            <li>Pochetes Unissex</li>
+            <li>Bolas</li>
+            <li>Roupas de Frio</li>
+          </ul>
+
+          <ul>
+            <li>Tênis</li>
+            <li>Calçados Femininos</li>
+            <li>Calçados Masculinos</li>
+            <li>Jordan</li>
+            <li>Sneakers</li>
+            <li>Dunks</li>
+            <li>Air Jordan 1</li>
+            <li>Tênis SB</li>
+            <li>Tênis Air Force 1</li>
+          </ul>
+
+          <ul>
+            <li>Esportes</li>
+            <li>Chuteiras Masculinas</li>
+            <li>Tênis Feminino de Academia</li>
+            <li>Tênis de corrida Feminino</li>
+            <li>Leggings Femininas</li>
+            <li>Tênis Masculino de Academia</li>
+            <li>Chuteiras Femininas</li>
+            <li>Chuteiras Mercurial</li>
+            <li>Chuteiras Phantom</li>
+          </ul>
+
+          <ul>
+            <li>Roupas e Acessórios</li>
+            <li>Moletons Masculinos</li>
+            <li>Mochilas Masculinas</li>
+            <li>Mochilas Femininas</li>
+            <li>Jaquetas Femininas</li>
+            <li>Calças Masculinas</li>
+            <li>Mochilas Infantis</li>
+            <li>Corta Vento Masculina</li>
+            <li>Meias de Futebol</li>
+          </ul>
+        </div>
+      </section>
+
+      <footer>
+        <div class="footerPrimary">
+          <ul class="aboutFooterPrimary">
+            <li>Encontre Uma Loja Nike</li>
+            <li>Cadastre-se para receber novidades</li>
+            <li>Cartão Presente</li>
+            <li>Mapa do Site</li>
+          </ul>
+
+          <ul class="aboutFooterPrimary">
+            <li>Ajuda</li>
+            <li>Dúvidas Gerais</li>
+            <li>Encontre seu Tamanho</li>
+            <li>Entregas</li>
+            <li>Pedidos</li>
+            <li>Trocas e Devoluções</li>
+            <li>Pagamentos</li>
+            <li>Produtos</li>
+            <li>Corporativo</li>
+            <li>Fale Conosco</li>
+          </ul>
+
+          <ul class="aboutFooterPrimary">
+            <li>Sobre a Nike</li>
+            <li>Feito pra Jogar</li>
+            <li>Sustentabilidade</li>
+            <li>Sobre a Nike, Inc.</li>
+            <li>Sobre o Grupo SBF</li>
+          </ul>
+
+          <div>
+            <span>Redes sociais</span>
+            <ul class="socialMediaIcons">
+              <li>
+                <svg
+                  data-testid="FacebookIcon"
+                  aria-hidden="true"
+                  version="1.1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  fill="currentColor"
+                  viewBox="0 0 24 24"
+                  class="SvgIcon__Icon-sc-9dg20d-0 SvgIcon-sc-9dg20d-1 cxStEi gjIExv"
+                >
+                  <path
+                    d="M20 12C20 7.58125 16.4187 4 12 4C7.58125 4 4 7.58125 4 12C4 16.4187 7.58125 20 12 20C12.0469 20 12.0938 20 12.1406 19.9969V13.7719H10.4219V11.7688H12.1406V10.2937C12.1406 8.58437 13.1844 7.65313 14.7094 7.65313C15.4406 7.65313 16.0688 7.70625 16.25 7.73125V9.51875H15.2C14.3719 9.51875 14.2094 9.9125 14.2094 10.4906V11.7656H16.1938L15.9344 13.7688H14.2094V19.6906C17.5531 18.7312 20 15.6531 20 12Z"
+                  />
+                </svg>
+              </li>
+              <li>
+                <svg
+                  data-testid="InstagramIcon"
+                  aria-hidden="true"
+                  version="1.1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  fill="currentColor"
+                  viewBox="0 0 24 24"
+                  class="SvgIcon__Icon-sc-9dg20d-0 SvgIcon-sc-9dg20d-1 cxStEi gjIExv"
+                >
+                  <path
+                    d="M13.5312 12C13.5312 12.8457 12.8457 13.5312 12 13.5312C11.1543 13.5312 10.4688 12.8457 10.4688 12C10.4688 11.1543 11.1543 10.4688 12 10.4688C12.8457 10.4688 13.5312 11.1543 13.5312 12Z"
+                  />
+                  <path
+                    d="M15.5811 9.29077C15.5074 9.09131 15.39 8.91077 15.2374 8.76257C15.0892 8.60999 14.9088 8.49255 14.7092 8.41895C14.5474 8.35608 14.3042 8.28125 13.8563 8.26086C13.3718 8.23877 13.2266 8.23401 12 8.23401C10.7733 8.23401 10.6281 8.23865 10.1437 8.26074C9.6958 8.28125 9.45251 8.35608 9.29077 8.41895C9.09119 8.49255 8.91064 8.60999 8.76257 8.76257C8.60999 8.91077 8.49255 9.09119 8.41882 9.29077C8.35596 9.45264 8.28113 9.69592 8.26074 10.1438C8.23865 10.6282 8.23389 10.7734 8.23389 12.0001C8.23389 13.2267 8.23865 13.372 8.26074 13.8564C8.28113 14.3043 8.35596 14.5475 8.41882 14.7094C8.49255 14.9089 8.60986 15.0894 8.76245 15.2376C8.91064 15.3901 9.09106 15.5076 9.29065 15.5812C9.45251 15.6442 9.6958 15.719 10.1437 15.7394C10.6281 15.7615 10.7732 15.7661 11.9999 15.7661C13.2267 15.7661 13.3719 15.7615 13.8562 15.7394C14.3041 15.719 14.5474 15.6442 14.7092 15.5812C15.1099 15.4266 15.4265 15.11 15.5811 14.7094C15.6439 14.5475 15.7188 14.3043 15.7393 13.8564C15.7614 13.372 15.766 13.2267 15.766 12.0001C15.766 10.7734 15.7614 10.6282 15.7393 10.1438C15.7189 9.69592 15.644 9.45264 15.5811 9.29077ZM12 14.3589C10.6971 14.3589 9.64099 13.3029 9.64099 12C9.64099 10.6971 10.6971 9.64111 12 9.64111C13.3027 9.64111 14.3589 10.6971 14.3589 12C14.3589 13.3029 13.3027 14.3589 12 14.3589ZM14.4521 10.0991C14.1477 10.0991 13.9009 9.8523 13.9009 9.54785C13.9009 9.24341 14.1477 8.99658 14.4521 8.99658C14.7566 8.99658 15.0034 9.24341 15.0034 9.54785C15.0033 9.8523 14.7566 10.0991 14.4521 10.0991Z"
+                  />
+                  <path
+                    d="M12 4C7.5824 4 4 7.5824 4 12C4 16.4176 7.5824 20 12 20C16.4176 20 20 16.4176 20 12C20 7.5824 16.4176 4 12 4ZM16.566 13.8939C16.5438 14.3829 16.4661 14.7168 16.3525 15.009C16.1139 15.6261 15.6261 16.1139 15.009 16.3525C14.7169 16.4661 14.3829 16.5437 13.894 16.566C13.4042 16.5884 13.2477 16.5938 12.0001 16.5938C10.7524 16.5938 10.5961 16.5884 10.1061 16.566C9.61719 16.5437 9.2832 16.4661 8.99109 16.3525C8.68445 16.2372 8.40686 16.0564 8.17737 15.8226C7.94373 15.5933 7.76294 15.3156 7.64758 15.009C7.53406 14.7169 7.4563 14.3829 7.43408 13.894C7.4115 13.4041 7.40625 13.2476 7.40625 12C7.40625 10.7524 7.4115 10.5959 7.43396 10.1061C7.45618 9.61707 7.53381 9.2832 7.64734 8.99097C7.7627 8.68445 7.9436 8.40674 8.17737 8.17737C8.40674 7.9436 8.68445 7.76282 8.99097 7.64746C9.2832 7.53394 9.61707 7.4563 10.1061 7.43396C10.5959 7.41162 10.7524 7.40625 12 7.40625C13.2476 7.40625 13.4041 7.41162 13.8939 7.43408C14.3829 7.4563 14.7168 7.53394 15.009 7.64734C15.3156 7.7627 15.5933 7.9436 15.8228 8.17737C16.0564 8.40686 16.2373 8.68445 16.3525 8.99097C16.4662 9.2832 16.5438 9.61707 16.5662 10.1061C16.5885 10.5959 16.5938 10.7524 16.5938 12C16.5938 13.2476 16.5885 13.4041 16.566 13.8939Z"
+                  />
+                </svg>
+              </li>
+              <li>
+                <svg
+                  data-testid="YoutubeIcon"
+                  aria-hidden="true"
+                  version="1.1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  fill="currentColor"
+                  viewBox="0 0 24 24"
+                  class="SvgIcon__Icon-sc-9dg20d-0 SvgIcon-sc-9dg20d-1 cxStEi gjIExv"
+                >
+                  <path d="M11 13.4988L13.6023 12L11 10.5012V13.4988Z"></path>
+                  <path
+                    d="M12 4C7.5824 4 4 7.5824 4 12C4 16.4176 7.5824 20 12 20C16.4176 20 20 16.4176 20 12C20 7.5824 16.4176 4 12 4ZM16.9988 12.0082C16.9988 12.0082 16.9988 13.6306 16.793 14.413C16.6776 14.8412 16.34 15.1788 15.9117 15.2941C15.1294 15.5 12 15.5 12 15.5C12 15.5 8.87878 15.5 8.08826 15.2859C7.66003 15.1707 7.32239 14.8329 7.20703 14.4047C7.0011 13.6306 7.0011 12 7.0011 12C7.0011 12 7.0011 10.3777 7.20703 9.59534C7.32227 9.16711 7.66821 8.82117 8.08826 8.70593C8.87061 8.5 12 8.5 12 8.5C12 8.5 15.1294 8.5 15.9117 8.71411C16.34 8.82935 16.6776 9.16711 16.793 9.59534C17.0071 10.3777 16.9988 12.0082 16.9988 12.0082Z"
+                  />
+                </svg>
+              </li>
+            </ul>
+
+            <span>Formas de pagamento</span>
+            <ul class="paymentIcons">
+              <li>
+                <img src="./assets/cards/mastercard.svg" alt="mastercard" />
+              </li>
+              <li>
+                <img src="./assets/cards/visa.svg" alt="visa" />
+              </li>
+              <li>
+                <img src="./assets/cards/amex.svg" alt="amex" />
+              </li>
+              <li>
+                <img src="./assets/cards/elo.svg" alt="elo" />
+              </li>
+              <li>
+                <img src="./assets/cards/hipercard.svg" alt="hipercard" />
+              </li>
+              <li><img src="./assets/cards/discover.svg" alt="discover" /></li>
+              <li>
+                <img src="./assets/cards/pix.svg" alt="pix" />
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <hr class="solid" />
+
+        <div class="footerSecondary">
+          <ul>
+            <li>Brasil</li>
+            <li>Política de Privacidade</li>
+            <li>Termos de Uso</li>
+          </ul>
+          <p>
+            © 2023 Nike. Todos os direitos reservados. Fisia Comércio de
+            Produtos Esportivos Ltda - CNPJ: 59.546.515/0045-55 Rodovia Fernão
+            Dias, S/N Km 947.5 - Galpão Modulo 3640 - CEP 37640-903 - Extrema -
+            MG
+          </p>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>
